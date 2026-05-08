@@ -188,5 +188,7 @@ watchDocumentLanguage();
 
 
 ### Альтернатива finsweet cookie consent легасі
-- https://webflow.com/made-in-webflow/website/free-clone-gdpr-cookie-consent-banner
-- https://finsweet.com/attributes/v1/cookie-consent
+- Для клдонування
+https://webflow.com/made-in-webflow/website/free-clone-gdpr-cookie-consent-banner
+- Документація 
+https://finsweet.com/attributes/v1/cookie-consent
