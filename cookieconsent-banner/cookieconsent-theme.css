@@ -1,0 +1,47 @@
+:root {
+    color-scheme: light;
+
+    /* Базові кольори модалки */
+    --cc-bg: #fffaf5;
+    --cc-primary-color: #4a3427;
+    --cc-secondary-color: #7a5c49;
+
+    /* Кольори основної кнопки */
+    --cc-btn-primary-bg: #c67b49;
+    --cc-btn-primary-color: #fffaf5;
+    --cc-btn-primary-hover-bg: #a96335;
+    --cc-btn-primary-hover-color: #ffffff;
+
+    /* Кольори другорядної кнопки */
+    --cc-btn-secondary-bg: #f4e7dc;
+    --cc-btn-secondary-color: #5f4434;
+    --cc-btn-secondary-hover-bg: #ecd8c7;
+    --cc-btn-secondary-hover-color: #3b281d;
+
+    /* Кольори секцій у вікні налаштувань */
+    --cc-cookie-category-block-bg: #f8ede3;
+    --cc-cookie-category-block-border: #efdece;
+    --cc-cookie-category-block-hover-bg: #f3e2d3;
+    --cc-cookie-category-block-hover-border: #e7cfba;
+    --cc-cookie-category-expanded-block-hover-bg: #f8ede3;
+    --cc-cookie-category-expanded-block-bg: #fdf6ef;
+
+    /* Колір фону позаду модалки */
+    --cc-overlay-bg: rgba(78, 52, 39, 0.42) !important;
+
+    /* Кольори перемикачів */
+    --cc-toggle-readonly-bg: #d8c0ad;
+    --cc-toggle-on-knob-bg: #fffaf5;
+    --cc-toggle-off-bg: #b99476;
+    --cc-toggle-readonly-knob-bg: #fffaf5;
+
+    /* Розділювачі та footer */
+    --cc-separator-border-color: #eadbcf;
+    --cc-footer-border-color: #eadbcf;
+    --cc-footer-bg: #fdf6ef;
+
+    /* Звичайні заокруглення */
+    --cc-btn-border-radius: 0.75rem;
+    --cc-modal-border-radius: 0.75rem;
+    --cc-pm-toggle-border-radius: 999px;
+}

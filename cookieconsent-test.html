@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookieConsent Test Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
+    <link rel="stylesheet" href="./cookieconsent-banner/cookieconsent-theme.css">
+    <link rel="stylesheet" href="./demo-page.css">
+</head>
+<body>
+    <main class="page-shell">
+        <section class="hero">
+            <article class="hero-card">
+                <span class="eyebrow">CookieConsent Demo</span>
+                <h1>Test page for the free CookieConsent plugin</h1>
+                <p class="lead">
+                    This example is prepared for quick integration into Webflow: the theme lives in a separate CSS file,
+                    the config lives in a separate JS file, and the banner automatically follows <code>&lt;html lang&gt;</code>.
+                </p>
+                <div class="actions">
+                    <button class="page-btn primary" type="button" id="open-consent">Open banner</button>
+                    <button class="page-btn secondary" type="button" id="open-preferences">Open preferences</button>
+                    <button class="page-btn ghost" type="button" id="reset-consent">Reset consent</button>
+                </div>
+                <div class="toolbar">
+                    <div class="language-switcher">
+                        <label for="language-select">Language</label>
+                        <select id="language-select">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                    </div>
+                </div>
+                <p class="footer-note">
+                    Tip: the banner uses <code>autoDetect: "document"</code> and updates automatically
+                    when <code>&lt;html lang&gt;</code> changes.
+                </p>
+            </article>
+
+            <div class="grid">
+                <article class="info-card">
+                    <h2>What this demo checks</h2>
+                    <p>Consent modal rendering, preferences modal layout, button states, readonly necessary cookies, and the analytics toggle.</p>
+                </article>
+                <article class="info-card">
+                    <h2>File structure</h2>
+                    <p>Everything related to the banner is grouped inside the <code>cookieconsent-banner</code> folder with separate CSS and JS files.</p>
+                </article>
+                <article class="info-card">
+                    <h2>Reset flow</h2>
+                    <p>The reset button clears consent and reloads the page so the banner appears again in a clean state.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.umd.js"></script>
+    <script src="./cookieconsent-banner/cookieconsent-config.js"></script>
+    <script src="./cookieconsent-banner/cookieconsent-init.js"></script>
+</body>
+</html>
