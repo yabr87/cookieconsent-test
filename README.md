@@ -7,6 +7,7 @@
 - Playground: [https://playground.cookieconsent.orestbida.com](https://playground.cookieconsent.orestbida.com)
 - Сайт: [https://cookieconsent.orestbida.com](https://cookieconsent.orestbida.com)
 
+
 ## 1. Вставити у `Head Code`
 
 ```html
@@ -184,3 +185,8 @@ function watchDocumentLanguage() {
 watchDocumentLanguage();
 </script>
 ```
+
+
+### Альтернатива finsweet cookie consent легасі
+- https://webflow.com/made-in-webflow/website/free-clone-gdpr-cookie-consent-banner
+- https://finsweet.com/attributes/v1/cookie-consent
